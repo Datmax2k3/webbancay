@@ -1,0 +1,16 @@
+.content-tit-box {
+    position: relative;
+    min-height: 350px;
+    width: 100%;
+    height: 100%;
+    background: url(../assets/img/banner/anh-hoa-co-dep.jpg) center center / cover no-repeat fixed;
+}
+.modal__overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.35);
+}
+.footer {
+    background-image: linear-gradient(0deg, rgb(93, 209, 93), #fff, #fff, #fff, #fff,  rgb(93, 209, 93));
+}

@@ -1,0 +1,58 @@
+
+
+/* h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(58, 102, 79);
+    padding: 21px;
+    font-weight: 700 !important;
+    font-family: "Courier New", Courier, monospace;
+} */
+.content-tit-box {
+    position: relative;
+    min-height: 350px;
+    width: 100%;
+    height: 100%;
+    background: url(./img/banner/anh-hoa-co-dep.jpg) center center / cover no-repeat fixed;
+}
+.modal__overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.35);
+}
+/* .content-tit-subbox {
+    font-size: 2rem;
+    text-align: center;
+    color: var(--while-color);
+    text-shadow: rgba(0, 0, 0, 0.4) 0px 2px 2px;
+    line-height: 7rem;
+    text-transform: uppercase;
+}
+.content__email-box {
+    display: flex;
+    justify-content: center;
+}
+.content__email-innput {
+    width: 400px;
+    border-top-left-radius: 25px !important;
+    border-bottom-left-radius: 25px !important;
+    border: 1px solid var(--green-color);
+    padding: 0px 21px;
+    outline: none;
+}
+.btn {
+    min-width: 142px;
+    height: 36px;
+    font-size: 1.3rem;
+    background-color: rgba(91, 165, 3, 0.7);
+    color: var(--while-color);
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 0px;
+    border: 1px solid var(--green-color);
+} */ 
+
+.footer {
+    background-image: linear-gradient(0deg, rgb(93, 209, 93), #fff, #fff, #fff, #fff,  rgb(93, 209, 93));
+}
