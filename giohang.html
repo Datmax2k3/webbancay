@@ -61,32 +61,84 @@
 
     </div>
 
-    <!-- login -->
-    <main class="form-signin w-100 m-auto">
-		<form class="text-center" action="dang-nhap" method="POST">
-			<img class="mb-4" src="./assets/img/logo/logo-tree.png"
-				alt="" width="72">
-			<h1 class="h3 mb-3 fw-normal">ĐĂNG NHẬP</h1>
-			<div class="text-center"><span class="red"></span></div>
-			<div class="form-floating">
-				<input type="text" class="form-control" id="tenDangNhap"
-					placeholder="Tên đăng nhập" name="tenDangNhap"> <label for="tenDangNhap">Tên đăng nhập</label>
-			</div>
-			<div class="form-floating">
-				<input type="password" class="form-control" id="matKhau"
-					placeholder="Mật khẩu" name="matKhau"> <label for="matKhau">Mật khẩu</label>
-			</div>
+    <!-- Cart -->
+    <div class="wrap container">
+        <h2>Giỏ hàng của bạn</h2>
+        <div class="content">
+            <table class="w-100">
+                <thead>
+                    <tr>
+                        <th>STT</th>
+                        <th>Hình ảnh</th>
+                        <th>Tên sản phẩm</th>
+                        <th>Đơn giá</th>
+                        <th>Số lượng</th>
+                        <th>Thành tiền</th>
+                        <th>Xóa</th>
+                    </tr>
+                </thead>
 
-			<div class="checkbox mb-3">
-				<label> <input type="checkbox" value="remember-me">
-					Ghi nhớ tài khoản này
-				</label>
-			</div>
-			<button class="w-100 btn btn-lg btn-primary" type="submit">Đăng nhập</button>
-			<a href="register.jsp">Đăng ký tài khoản mới</a>
-			<p class="mt-5 mb-3 text-muted">&copy; 2017–2025</p>
-		</form>
-	</main>
+                <tbody>
+                        <tr class="item-cart" data-rowid="f4049cc34c072de5a3f0c2fd662d0194" data-id="101"><td>0</td>
+                        <td>
+                            <img src="https://sudospaces.com/thichtrongcay/2021/09/y-nghia-hoa-huong-duong-small.jpg" alt="">
+                        </td>
+                        <td>
+                            <p>Hạt Giống Hoa Hướng Dương Lai</p>              
+                        </td>
+                        <td>
+                            <p class="price">20.000₫</p>
+                        </td>
+                        <td class="quanlity">
+                            <div class="qlt item-amount">
+                                <button class="minus update-qty" data-type="minus" fdprocessedid="j2sgm3">-</button>
+                                <input type="text" value="1" class="number-product" name="qty" disabled="" fdprocessedid="vn462">
+                                <button class="plus update-qty" data-type="plus" fdprocessedid="hsgrpp">+</button>
+                            </div>
+                        </td>
+                        <td class="toMoney">
+                            <p><span class="subtotal">20.000₫</span></p>
+                        </td>
+                        <td class="trash remove-cart">
+                            <i class="fa fa-trash-o" aria-hidden="true"></i>
+                        </td>
+                    </tr>
+                        <tr class="item-cart" data-rowid="3e50c739629d1f37aed459d1b84b42ed" data-id="174"><td>1</td>
+                        <td>
+                            <img src="https://sudospaces.com/thichtrongcay/2021/09/eccfe7e35907bb4eb61d7bf9b9244552-small.jpg" alt="">
+                        </td>
+                        <td>
+                            <p>Hạt giống Rau muống 70gr</p>                          
+                        </td>
+                        <td>
+                            <p class="price">10.000₫</p>
+                        </td>
+                        <td class="quanlity">
+                            <div class="qlt item-amount">
+                                <button class="minus update-qty" data-type="minus" fdprocessedid="rmpvtn">-</button>
+                                <input type="text" value="1" class="number-product" name="qty" disabled="" fdprocessedid="jkqzu">
+                                <button class="plus update-qty" data-type="plus" fdprocessedid="nsv3h">+</button>
+                            </div>
+                        </td>
+                        <td class="toMoney">
+                            <p><span class="subtotal">10.000₫</span></p>
+                        </td>
+                        <td class="trash remove-cart">
+                            <i class="fa fa-trash-o" aria-hidden="true"></i>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="total clearfix">
+                <p class="fl-right float-end">Tổng cộng: <span class="total-price">30,000₫</span></p>
+            </div>
+            <div class="action clearfix">
+                <a href="#" class="pay">Thanh toán</a>
+                <a href="#" class="addition float-end">Tiếp tục mua hàng</a>
+            </div>
+        </div>
+    </div>
+    
     
     <!-- foooter -->
     <div class="footer">
